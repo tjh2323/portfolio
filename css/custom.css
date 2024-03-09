@@ -1,0 +1,97 @@
+h2 {
+color: #222222;
+}
+
+.custom-works-section {
+margin: 0% 3% 0% 3%;
+}
+
+
+
+.mb-4-black {
+font-size: 1.25rem;
+color: #222222;
+}
+
+.galspan {
+font-weight: 500;
+}
+
+.achievement-header {
+place-content: center;
+text-align: center;
+}
+
+/* Extra small devices (phones, 575px and down) */
+@media only screen and (max-width: 575px) {
+.linkedin-logo {
+max-width: 50%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+.res-col-btm {
+padding-top: 10%;
+}
+
+.linkedin-logo {
+max-width: 35%;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.res-col-btm {
+padding-top: unset;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.gallery-description-right {
+padding-right: 5%;
+}
+
+.gallery-description-left {
+padding-left: 5%;
+}
+
+.achievement-header {
+height: 50%;
+}
+
+.linkedin-logo {
+max-width: 20%;
+}
+} 
+
+/* Extra Large devices (laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.achievement-header {
+height: 30%;
+}
+} 
+
+/* Extra Extra large devices (large laptops and desktops, 1920px and up) */
+@media only screen and (min-width: 1920px) {
+.gallery-description-right {
+padding-right: 30%;
+}
+
+.gallery-description-left {
+padding-left: 30%;
+}
+
+.achievement-container {
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.achievement-header {
+height: 20%;
+}
+
+
+}
