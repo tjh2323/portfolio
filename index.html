@@ -1,11 +1,352 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio/title>
-</head>
-<body>
-	<h1>Hello World!</h1>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jun Hao's Portfolio</title>
+    <meta name="description" content="Personal Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Lightbox CSS-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- Leaflet CSS-->
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,400italic">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+  </head>
+  <body>
+    <!-- Hero Content -->
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-xl">Hello.<br>I'm <span class="text-primary">Tan Jun Hao</span>, a content <span class="text-primary">developer </span>and <span class="text-primary">programmer </span>living in Singapore.</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<!-- About Me -->
+    <section class="py-5" style="padding-top: 0 !important;">
+      <div class="container py-5">
+        <h2 class="text-lg lined">About me</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="mb-4 mb-4-black">
+			Graduated from Nanyang Polytechnic with a Diploma in Business & Finance Technology, I am proficient in programming and content designing. I have a strong passion for IT and its versatility in solving complex real life problems.
+			</p><img src="img/about.jpg" alt="" class="img-fluid rounded-circle"> <!--my photo-->
+
+          </div>
+          <div class="col-lg-6">
+            <div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">Python</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%" class="progress-bar progress-primary-4"></div>
+              </div>
+            </div>
+			<div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">C#</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%" class="progress-bar progress-primary-3"></div>
+              </div>
+            </div>
+            <div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">Java</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%" class="progress-bar progress-primary-3"></div>
+              </div>
+            </div>
+            <div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">HTML5, CSS & Bootstrap</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%" class="progress-bar progress-primary-5"></div>
+              </div>
+            </div>
+            <div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">Javascript</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%" class="progress-bar progress-primary-5"></div>
+              </div>
+            </div>
+            <div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">ASP.NET</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%" class="progress-bar progress-primary-2"></div>
+              </div>
+            </div>
+			<div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">MySQL</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%" class="progress-bar progress-primary-2"></div>
+              </div>
+            </div>
+			
+			<div class="py-2 mb-2">
+              <p class="small font-weight-bold text-muted text-uppercase mb-0">Adobe Photoshop</p>
+              <div class="progress">
+                <div role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%" class="progress-bar progress-primary-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	
+	<!-- Past Works / Projects Section-->
+	<section class="pt-5 bg-light border-top border-bottom">
+		<div class="container">
+			<h2 class="h1 text-lg lined">Previous projects</h2>
+			<p class="lead mb-5">2019 - Present</p>
+		</div>
+		
+		<div class="container-fluid py-5" style="padding-top: 0 !important;">
+			<div class="row">
+				<div class="col-lg-6" style="text-align: center;">
+					<a href="img/portfolio/app1.jpg" data-lightbox="personalAndroidApp" data-title="Home page, where users can set the rate of exchange and currencies" class="col-lg-3 col-sm-6 p-0">
+						<img src="img/portfolio/app1-thumb.png" alt="Gallery" class="img-fluid"> <!--thumbnail-->
+					</a>
+					<a href="img/portfolio/app2.jpg" data-lightbox="personalAndroidApp" data-title="Calculator page, or conversion page, where users can conveniently calculate the exact amount specified" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/app3.jpg" data-lightbox="personalAndroidApp" data-title="Works in both directions, users can type in both fields." class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+				</div>
+				<div class="col-lg-6" style="place-self: center;">
+					<h2>Project #1 <span class="galspan">- Instant Currency Calculator</span></h2>
+					<h3 class="gallery-description-right" style="text-align: justify;"><span class="galspan">A simple Android Application I made 
+					while serving NS. </span>This is a personal project<span class="galspan">, as I always wanted a simple 
+					application that allows me to convert foreign prices to my local currency.
+					<br>
+					I made use of a caching system in order to save the set currency and rates, mitigating
+					the process of re-entering the settings.
+					<br>
+					The best parts of it? It is quick, lightweight, and does not require any internet connection!</span></h3>
+					<p class="gallery-description-right">Feel free to click on the images to open up a gallery with a brief description of each image.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid py-5" style="padding-top: 0 !important;">
+			<div class="row">
+				
+				<div class="col-lg-6" style="place-self: center;">
+					<h2 class="gallery-description-left">Project #2 <span class="galspan">- Website updates and enhancements</span></h2>
+					<h3 class="gallery-description-left" style="text-align: justify;"><span class="galspan"></span>During my internship,<span class="galspan"> I made several improvements to my
+					company's website, implemented new features, and did SEO write-ups, all using WordPress and custom HTML, CSS, and Javascript.
+					<br>
+					The website traffic improved after, and I believe it generated more sales for the company in return!</span></h3>
+					<p class="gallery-description-left">Feel free to click on the images to open up a gallery with a brief description of each image.</p>
+				</div>
+				
+				<div class="col-lg-6" style="text-align: center;">
+					<a href="img/portfolio/home_before.png" data-lightbox="internGallery" data-title="Home Page (before)" class="col-lg-3 col-sm-6 p-0">
+						<img src="img/portfolio/intern-thumb.png" alt="Gallery" class="img-fluid">
+					</a>
+					<a href="img/portfolio/home_after.png" data-lightbox="internGallery" data-title="Home Page (after)" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/menu_before.png" data-lightbox="internGallery" data-title="Website Navbar Menu (before)" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/menu_after1.png" data-lightbox="internGallery" data-title="Website Navbar Menu (after pagination implementation)" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/menu_after2.png" data-lightbox="internGallery" data-title='Website Navbar Menu (letter "C" selected)' class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/menu_after3.png" data-lightbox="internGallery" data-title="Website Navbar Menu (supports multiple letters selection by holding down CTRL)" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/email_newsletter.png" data-lightbox="internGallery" data-title="Email Newsletters created by me, sent to thousands of real user's emails" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/blog_post.png" data-lightbox="internGallery" data-title="Blog posts created by me, published on the company's website" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid py-5" style="padding-top: 0 !important;">
+			<div class="row">
+				<div class="col-lg-6" style="text-align: center;">
+					<a href="img/portfolio/bapj-1.png" data-lightbox="bapjApp" data-title="Home page" class="col-lg-3 col-sm-6 p-0">
+						<img src="img/portfolio/bapj-thumb.png" alt="Gallery" class="img-fluid"> <!--thumbnail-->
+					</a>
+					<a href="img/portfolio/bapj-2.png" data-lightbox="bapjApp" data-title="Registration page with form validation" class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/bapj-3.png" data-lightbox="bapjApp" data-title='Login page with form validation, and the "Admin login" can be accessed on both the Registration and Login tabs' class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+					<a href="img/portfolio/bapj-4.png" data-lightbox="bapjApp" data-title='When logged in as an admin, the admin can view all registered users and delete any records as necessary. I have also implemented a sorting function.' class="col-lg-3 col-sm-6 p-0" style="display:none;"></a>
+				</div>
+				<div class="col-lg-6" style="place-self: center;">
+					<h2>Project #3 <span class="galspan">- Web System with Database</span></h2>
+					<h3 class="gallery-description-right" style="text-align: justify;"><span class="galspan">One of the projects I did during my </span>Diploma course<span class="galspan">,
+					was a fully fledged website that could handle multiple functions like user accounts, reviews, shopping cart, and an admin dashboad. 
+					<br>
+					It was a group project, with each student taking on one major function each. I did all the user registration & admin login parts, using ASP.NET and SQL.
+					</span></h3>
+					<p class="gallery-description-right">Feel free to click on the images to open up a gallery with a brief description of each image.</p>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	
+    
+	<!--
+    <!-- Customers Section ->
+    <section class="py-5 border-top border-bottom bg-light">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-6"><img src="img/customers/customer-1.svg" alt="" data-toggle="tooltip" data-placement="bottom" title="Customer 1" class="customer img-fluid d-block mx-auto m-2 p-4 p-md-0"></div>
+          <div class="col-lg-2 col-md-4 col-6"><img src="img/customers/customer-2.svg" alt="" data-toggle="tooltip" data-placement="bottom" title="Customer 2" class="customer img-fluid d-block mx-auto m-2 p-4 p-md-0"></div>
+          <div class="col-lg-2 col-md-4 col-6"><img src="img/customers/customer-3.svg" alt="" data-toggle="tooltip" data-placement="bottom" title="Customer 3" class="customer img-fluid d-block mx-auto m-2 p-4 p-md-0"></div>
+          <div class="col-lg-2 col-md-4 col-6"><img src="img/customers/customer-4.svg" alt="" data-toggle="tooltip" data-placement="bottom" title="Customer 4" class="customer img-fluid d-block mx-auto m-2 p-4 p-md-0"></div>
+          <div class="col-lg-2 col-md-4 col-6"><img src="img/customers/customer-5.svg" alt="" data-toggle="tooltip" data-placement="bottom" title="Customer 5" class="customer img-fluid d-block mx-auto m-2 p-4 p-md-0"></div>
+          <div class="col-lg-2 col-md-4 col-6"><img src="img/customers/customer-6.svg" alt="" data-toggle="tooltip" data-placement="bottom" title="Customer 6" class="customer img-fluid d-block mx-auto m-2 p-4 p-md-0"></div>
+        </div>
+      </div>
+    </section> -->
+	
+	
+	<!-- Achievements Section -->
+	<section class="py-5">
+		<div class="container">
+			<h2 class="h1 text-lg lined">Achievements</h2>
+		</div>
+		
+		<div class="container-fluid py-5 achievement-container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="row achievement-header">
+						<h4>Good Progress Award</h4>
+						<p>Awarded to students who are within the top 10% of their institution’s level and course in terms of improvement in academic performance and have demonstrated good conduct.</p>
+					</div>
+					<div class="">
+						<a href="img/achievements/diploma-1.jpg" data-lightbox="achievement-gallery" data-title="Awarded in 2021" class="col-lg-3 col-sm-6 p-0">
+							<img src="img/achievements/diploma-1.jpg" alt="" class="img-fluid"> <!--thumbnail-->
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-sm-6">
+					<div class="row achievement-header">
+						<h4>Merit Bursary</h4>
+						<p>Awarded to students who are within the top 25% of their institution’s level and course in terms of academic performance and have demonstrated good conduct.</p>
+					</div>
+					<div class="">
+						<a href="img/achievements/merit-2018.jpg" data-lightbox="achievement-gallery" data-title="Awarded in 2018" class="col-lg-3 col-sm-6 p-0">
+							<img src="img/achievements/merit-2018.jpg" alt="" class="img-fluid"> <!--thumbnail-->
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-sm-6 res-col-btm">
+					<div class="row achievement-header">
+						<h4>Skills Award</h4>
+						<p>Awarded up to 5% of students in the penultimate year and 15% of students in the graduating cohort from each course who have demonstrated excellent professional and LifeSkills throughout their course of study, and good conduct.</p>
+					</div>
+					<div class="">
+						<a href="img/achievements/skills-2018.jpg" data-lightbox="achievement-gallery" data-title="Awarded in 2018" class="col-lg-3 col-sm-6 p-0">
+							<img src="img/achievements/skills-2018.jpg" alt="" class="img-fluid"> <!--thumbnail-->
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-sm-6 res-col-btm">
+					<div class="row achievement-header">
+						<h4>Certificate of Academic Achievement</h4>
+						<p>Awarded to students who are within the top 25% of their institution’s level and course in terms of academic performance and have demonstrated good conduct.</p>
+					</div>
+					<div class="">
+						<a href="img/achievements/2017-1.jpg" data-lightbox="achievement-gallery" data-title="Awarded in 2017" class="col-lg-3 col-sm-6 p-0">
+							<img src="img/achievements/2017-1.jpg" alt="" class="img-fluid"> <!--thumbnail-->
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+	<!-- Contact Me Section -->
+	<section class="py-5" style="padding-top: 0 !important;">
+		<div class="container py-5">
+			<h2 class="h1 text-lg lined">Contact Me</h2>
+			<div class="row">
+			<div class="col-sm">
+				<a href="https://www.linkedin.com/in/junhao37/" target="_blank">
+					<img src="img/linkedin-large.png" alt="" class="img-fluid linkedin-logo"> <!--linkedin-->
+				</a>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+    <!-- Contact Section (To be changed to a non-form style.) -->
+	<!--
+    <section class="py-5">
+      <div class="container py-5">
+        <h2 class="h1 text-lg lined mb-5">Contact</h2>
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <form id="contact-form" method="post" action="contact.php" class="contact-form form">
+              <div class="row">
+                <div class="form-group col-lg-6">
+                  <label for="name" class="font-weight-normal">Your firstname *</label>
+                  <input id="name" type="text" name="name" placeholder="Enter your firstname" required class="form-control">
+                </div>
+                <div class="form-group col-lg-6">
+                  <label for="surname" class="font-weight-normal">Your lastname *</label>
+                  <input id="surname" type="text" name="surname" placeholder="Enter your lastname" required class="form-control">
+                </div>
+                <div class="form-group col-lg-12">
+                  <label for="email" class="font-weight-normal">Your email *</label>
+                  <input id="email" type="email" name="email" placeholder="Enter your email" required class="form-control">
+                </div>
+                <div class="form-group col-lg-12">
+                  <label for="message" class="font-weight-normal">Your message for us *</label>
+                  <textarea id="message" rows="4" name="message" placeholder="Enter your message" required class="form-control"></textarea>
+                </div>
+                <div class="form-group col-lg-12">
+                  <button type="submit" class="btn btn-outline-primary btn-block">Send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <p class="mb-4">Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed.</p>
+            <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.</p>
+            <ul class="list-inline text-center">
+              <li class="list-inline-item"><a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+	-->
+	
+	<!-- Footer -->
+    <footer style="background: #282c37" class="py-4 text-white">
+      <div class="container">
+        <div class="row">
+		<div class="col-lg-6 text-center text-lg-left">
+            <p class="mb-0 font-weight-light text-small">©Tan Jun Hao's Portfolio</p>
+          </div>
+		<!--
+          <div class="col-lg-6 text-center text-lg-left">
+            <p class="mb-0 font-weight-light text-small">A Personal Portfolio.</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-right">
+            <p class="mb-0 font-weight-light text-small">Theme by <a href="https://bootstrapious.com" target="_blank">Bootstrapious</a></p>
+          </div>
+		  -->
+        </div>
+      </div>
+    </footer>
+	
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="js/front.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
 </html>
