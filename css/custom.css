@@ -27,14 +27,19 @@ text-align: center;
 .linkedin-logo {
 max-width: 50%;
 }
-  .about-float-right {
-		display: none;
-	}
-	
-	.about-float-right-mobile {
-		display: block;
-		margin-top: 1em;
-	}
+.about-float-right {
+display: none;
+}
+.about-float-right-mobile {
+display: block;
+margin-top: 1em;
+}
+.project-2-mobile {
+display: block;
+}
+.project-2-desktop {
+display: none;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
@@ -47,15 +52,22 @@ padding-top: 10%;
 max-width: 35%;
 }
 
-  .about-float-right {
-		display: none;
-	}
-	
-	.about-float-right-mobile {
-		display: block;
-		margin-top: 1em;
-	}
+.about-float-right {
+display: none;
+}
 
+.about-float-right-mobile {
+display: block;
+margin-top: 1em;
+}
+
+.project-2-mobile {
+display: block;
+}
+.project-2-desktop {
+display: none;
+}
+	
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -83,22 +95,30 @@ height: 50%;
 max-width: 20%;
 }
 
-  .row-float-middle {
-		clear: both;
-	}
-	
-	.about-float-right {
-		float: right;
-		display: block;
-	}
-	
-	.about-float-left {
-		float: left;
-	}
-	
-	.about-float-right-mobile {
-		display: none;
-	}
+.row-float-middle {
+clear: both;
+}
+
+.about-float-right {
+float: right;
+display: block;
+}
+
+.about-float-left {
+float: left;
+}
+
+.about-float-right-mobile {
+display: none;
+}
+
+.project-2-mobile {
+display: none;
+}
+
+.project-2-desktop {
+display: block;
+}
 } 
 
 /* Extra Large devices (laptops/desktops, 1200px and up) */
