@@ -27,6 +27,14 @@ text-align: center;
 .linkedin-logo {
 max-width: 50%;
 }
+  .about-float-right {
+		display: none;
+	}
+	
+	.about-float-right-mobile {
+		display: block;
+		margin-top: 1em;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
@@ -38,6 +46,15 @@ padding-top: 10%;
 .linkedin-logo {
 max-width: 35%;
 }
+
+  .about-float-right {
+		display: none;
+	}
+	
+	.about-float-right-mobile {
+		display: block;
+		margin-top: 1em;
+	}
 
 }
 
@@ -65,6 +82,23 @@ height: 50%;
 .linkedin-logo {
 max-width: 20%;
 }
+
+  .row-float-middle {
+		clear: both;
+	}
+	
+	.about-float-right {
+		float: right;
+		display: block;
+	}
+	
+	.about-float-left {
+		float: left;
+	}
+	
+	.about-float-right-mobile {
+		display: none;
+	}
 } 
 
 /* Extra Large devices (laptops/desktops, 1200px and up) */
